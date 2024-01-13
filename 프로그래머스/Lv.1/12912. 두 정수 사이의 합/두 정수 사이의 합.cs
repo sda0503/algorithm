@@ -3,16 +3,16 @@ public class Solution {
         long answer = 0;
         if (a < b)
         {
-            for (var i = a; i <= b; i++)
+            for (int i = a; i <= b; i++)
             {
-                answer += i;
+                answer += (long)i;
             }
         }
         else
         {
-            for (var i = b; i <= a; i++)
+            for (int i = b; i <= a; i++)
             {
-                answer += i;
+                answer += (long)i;
             }
         }
         if (a == b) answer = a;
